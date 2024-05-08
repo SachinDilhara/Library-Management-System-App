@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LMS"
+        tools:targetApi="31">
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".memberbranch"
+            android:exported="false" />
+        <activity
+            android:name=".memberbook"
+            android:exported="false" />
+        <activity
+            android:name=".memberhome"
+            android:exported="false" />
+        <activity
+            android:name=".editloan"
+            android:exported="false" />
+        <activity
+            android:name=".loan"
+            android:exported="false" />
+        <activity
+            android:name=".viewloan"
+            android:exported="false" />
+        <activity
+            android:name=".addloan"
+            android:exported="false" />
+
+        <activity
+            android:name=".loanmanagement"
+            android:exported="false" />
+        <activity
+            android:name=".copy"
+            android:exported="false" />
+        <activity
+            android:name=".editcopy"
+            android:exported="false" />
+        <activity
+            android:name=".viewcopy"
+            android:exported="false" />
+        <activity
+            android:name=".addcopy"
+            android:exported="false" />
+        <activity
+            android:name=".bookcopymanagement"
+            android:exported="false" />
+        <activity
+            android:name=".editauthor"
+            android:exported="false" />
+        <activity
+            android:name=".author"
+            android:exported="false" />
+        <activity
+            android:name=".viewauthor"
+            android:exported="false" />
+        <activity
+            android:name=".addauthor"
+            android:exported="false" />
+        <activity
+            android:name=".editpublisher"
+            android:exported="false" />
+        <activity
+            android:name=".publisher"
+            android:exported="false" />
+        <activity
+            android:name=".addpublisher"
+            android:exported="false" />
+        <activity
+            android:name=".viewpublisher"
+            android:exported="false" />
+        <activity
+            android:name=".authormanagement"
+            android:exported="false" />
+        <activity
+            android:name=".publishermanagement"
+            android:exported="false" />
+        <activity
+            android:name=".editbook"
+            android:exported="false" />
+        <activity
+            android:name=".book"
+            android:exported="false" />
+        <activity
+            android:name=".editmember"
+            android:exported="false" />
+        <activity
+            android:name=".member"
+            android:exported="false" />
+        <activity
+            android:name=".editbranch"
+            android:exported="false" />
+        <activity
+            android:name=".viewbranch"
+            android:exported="false" />
+        <activity
+            android:name=".addbranch"
+            android:exported="false" />
+        <activity
+            android:name=".viewmember"
+            android:exported="false" />
+        <activity
+            android:name=".addmember"
+            android:exported="false" />
+        <activity
+            android:name=".makeloan"
+            android:exported="false" />
+        <activity
+            android:name=".viewbook"
+            android:exported="false" />
+        <activity
+            android:name=".addbook"
+            android:exported="false" />
+        <activity
+            android:name=".branchmanagement"
+            android:exported="false" />
+        <activity
+            android:name=".membermanagement"
+            android:exported="false" />
+        <activity
+            android:name=".bookmanagement"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

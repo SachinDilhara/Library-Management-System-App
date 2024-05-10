@@ -1,0 +1,1 @@
+The app features a member page for viewing book and branch information, with an admin login leading to an admin home page where administrators can manage books, branches, publishers, authors, members, and record book loans.
